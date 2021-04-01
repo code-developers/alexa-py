@@ -52,3 +52,6 @@ def alexa():
         talk(pyjokes.get_joke())
     else:
         talk('Please say the command again.')
+
+while True:
+    alexa()
